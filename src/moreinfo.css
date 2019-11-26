@@ -12,9 +12,9 @@ main{
 main p{
     color: aliceblue;
     position: absolute;
-    margin-top: 50%;
+    margin-top: 40%;
   margin-left: 18%;
- 
+ margin-right: 20%;
   font-family: Nunito;
   font-style: normal;
   font-size: 100%;

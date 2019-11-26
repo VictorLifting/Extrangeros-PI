@@ -6,6 +6,7 @@ body{
 }
 
 main{
+  
 
     width: 100%;
  
@@ -54,3 +55,16 @@ footer{
  margin-top: 13%;
  margin-left: 50%;
 }
+
+.linea{
+margin-left:10%;
+    height: 150%;
+position: absolute;
+z-index: -1;
+}
+.linea1{
+    margin-left:10%;
+        height: 158%;
+    position: absolute;
+    z-index: -1;
+    }
