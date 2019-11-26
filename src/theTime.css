@@ -68,3 +68,16 @@ z-index: -1;
     position: absolute;
     z-index: -1;
     }
+    .lineat1{
+        margin-left:10%;
+            height: 140%;
+        position: absolute;
+        z-index: -1;
+        }
+        .lineat2{
+            margin-left:10%;
+                height: 162%;
+            position: absolute;
+            z-index: -1;
+            }
+         
