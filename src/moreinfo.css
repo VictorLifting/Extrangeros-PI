@@ -1,0 +1,44 @@
+.banner{
+    width: 100%;
+   position: absolute;
+}
+body{
+    width: 100%;
+}
+main{
+    width: 100%;
+}
+
+main p{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 50%;
+  margin-left: 18%;
+ 
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 100%;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+
+}
+
+footer a{
+ 
+    position: absolute;
+    width: 10%;
+  
+ margin-top: 130%;
+ margin-left: 20%;
+}
+.back{
+    position: absolute;
+}
+.backbaner{
+    margin-top: 120%;
+    position: absolute;
+    width: 100%;
+}
