@@ -19,6 +19,20 @@ body {
 .BannerP1{
     width:10;
 }
+.atras{
+    position: absolute;
+    height: 26px;
+    margin-top: 50px;
+    margin-left:20px;
+}
+
+.english{
+    position: absolute;
+   
+    margin-left: 140px;
+    height: 25px;
+    margin-top: 50px;
+}
 
 .P1{
     display: flex;
@@ -27,37 +41,54 @@ body {
 }
 
 .Did{
+    margin-top: 130px;
     font-family: Nunito;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 200px;
+    font-size: 25px;
+    line-height: 40px;
     color: #10495C;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-left: 40px;
+   
+    
 }
 .ImgP{
     margin-top: 30px;
-    width: 85px;
+    width: 105px;
     margin-left: 20px;
+    height: 135px;
+    
 }
 .Archeologist{
-    width: 250px;
+width: 300px;
 height: 88px;
 font-family: Nunito;
 font-style: normal;
 font-weight: 300;
-font-size: 15px;
-line-height: 20px;
+font-size: 19px;
+line-height: 25px;
 color: #10495C;
 margin-left: 40px;
+
+
+}
+.more{
+    margin-top: 20px;
+    font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #10495C;
 
 }
 .container {
 
     display: flex;
     margin-top: 0 auto;
-
+   
 
     width: 100%;
     flex-direction: column;
@@ -84,9 +115,12 @@ margin-left: 40px;
     border-color: rgb(235, 153, 59);
 
 
-    font-family: 'Nunito', sans-serif;
-    font-size: 25px;
-    font-weight: 800;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #10495C;
+    text-align: center;
 
 
 
@@ -103,7 +137,7 @@ margin-left: 40px;
     -o-transition: width 0.5s ease-in-out;
     transition: width 0.5s ease-in-out;
 
-}
+}   
 
 .left {
     display: -webkit-box;
@@ -130,26 +164,28 @@ margin-left: 40px;
 @media(max-width:700px) {
 
     .container {
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     .perfil {
+        
         margin-top: 0px;
-        font-size: 15px;
-        width: 270px;
-        height: 50px;
+        font-size: 20px;
+        width: 289px;
+        height: 55px;
         margin-bottom: 20px;
+       
     }
 
     .perfilIcon {
         padding-left: 10px;
         padding-right: 10px;
       
-        width: 70px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
 
     .go {
-        width: 30px;
+        width: 20px;
     }
 }
