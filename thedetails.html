@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/thedetails.css">
     <title>theDetails</title>
 </head>
 <body class="bodyBlanco">
     <div class="contenido">
 <div class="imagen">
-    <img src="./src/imagenes/thedetailstittle.png" alt="theDetails">
+    <img src="./src/imagenes/BannerDetails.png" alt="theDetails">
 
     
 
@@ -45,19 +45,19 @@
 				} );
 				// collada
 				var loader = new ColladaLoader( loadingManager );
-				loader.load( './models/collada/elf/Figura1-.dae', function ( collada ) {
+				loader.load( './models/collada/elf/Figura2.dae', function ( collada ) {
 					elf = collada.scene;
                 } );
                 
 				//COLORES DE LA LUCES
-				var ambientLight = new THREE.AmbientLight( 0xffffff, 4 );
+				var ambientLight = new THREE.AmbientLight( 0x00000, 1 );
 				scene.add( ambientLight );
-				var directionalLight = new THREE.DirectionalLight( 0xFFC900, 3 );
+				var directionalLight = new THREE.DirectionalLight( 0xFF5733, 1 );
 				directionalLight.position.set( 1,1, 1 ).normalize();
 				scene.add(directionalLight)
 
 
-				var directionalLight2 = new THREE.DirectionalLight( 0xFFC900, 3 );
+				var directionalLight2 = new THREE.DirectionalLight( 0xFF5733, 3 );
 				directionalLight2.position.set( 1,1, -1 ).normalize();
 				scene.add(directionalLight2)
 			
@@ -98,7 +98,7 @@
         </script>
          <div class="volver">
              <a href="pantalla1.html">
-            <img src="./src/imagenes/volver2.png" alt="volver"></a>
+            <img src="./src/imagenes/atrasAzul.png" alt="volver"></a>
         </div></div>
 </body>
 </html>
