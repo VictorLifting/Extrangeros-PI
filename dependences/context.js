@@ -13,6 +13,7 @@ function preload() {
 }
 
 function setup() {
+    createCanvas(0,0);
 
 }
 
@@ -83,7 +84,7 @@ btnrepro[0].addEventListener("click", function () {
 btnrepro[1].addEventListener("click", function () {
 
     play = false;
-    btnrepro[0].src = "./../src/imagenes/play.png"
+    btnrepro[0].src = "./../src/imagenes/play (2).png"
     audio.stop();
 
 })
