@@ -1,5 +1,6 @@
 let botones = document.querySelectorAll(".go")
 let contenido = document.querySelector(".contenido")
+let atras = document.querySelector(".atras")
 
 botones[0].addEventListener("click", function () {
 
@@ -48,6 +49,16 @@ botones[1].addEventListener("click", function () {
  
      let retrasoCambio = setTimeout(function () {
          document.location.href = "./moreinfo.html"
+     }, 1000)
+ 
+ })
+ atras.addEventListener("click", function () {
+
+
+    // contenido.classList.add("slideOutUp")
+ 
+     let retrasoCambio = setTimeout(function () {
+         document.location.href = "./choose.html"
      }, 1000)
  
  })
