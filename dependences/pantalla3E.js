@@ -8,7 +8,7 @@ botones[0].addEventListener("click", function () {
    // contenido.classList.add("slideOutUp")
 
     let retrasoCambio = setTimeout(function () {
-        document.location.href = "./thecontext3.html"
+        document.location.href = "./elcontexto2.html"
     }, 1000)
 
 })
@@ -18,7 +18,7 @@ botones[1].addEventListener("click", function () {
     // contenido.classList.add("slideOutUp")
  
      let retrasoCambio = setTimeout(function () {
-         document.location.href = "./theculture2.html"
+         document.location.href = "./cultura2.html"
      }, 1000)
  
  })
@@ -28,7 +28,7 @@ botones[1].addEventListener("click", function () {
     // contenido.classList.add("slideOutUp")
  
      let retrasoCambio = setTimeout(function () {
-         document.location.href = "./thetime2.html"
+         document.location.href = "./eltiempo2.html"
      }, 1000)
  
  })
@@ -38,7 +38,7 @@ botones[1].addEventListener("click", function () {
     // contenido.classList.add("slideOutUp")
  
      let retrasoCambio = setTimeout(function () {
-         document.location.href = "./thedetails2.html"
+         document.location.href = "./detalles2.html"
      }, 1000)
  
  })
@@ -48,7 +48,7 @@ botones[1].addEventListener("click", function () {
     // contenido.classList.add("slideOutUp")
  
      let retrasoCambio = setTimeout(function () {
-         document.location.href = "./moreinfo.html"
+         document.location.href = "./masinfo.html"
      }, 1000)
  
  })
@@ -58,7 +58,7 @@ botones[1].addEventListener("click", function () {
     // contenido.classList.add("slideOutUp")
  
      let retrasoCambio = setTimeout(function () {
-         document.location.href = "./choose.html"
+         document.location.href = "./escoge.html"
      }, 1000)
  
  })

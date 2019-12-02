@@ -27,7 +27,7 @@ botones.addEventListener("click", function () {
     // contenido.classList.add("slideOutUp")
  
      let retrasoCambio = setTimeout(function () {
-         document.location.href = "./pantalla1E.html"
+         document.location.href = "./pantalla2E.html"
      }, 1000)
  
  })
@@ -37,7 +37,7 @@ botones.addEventListener("click", function () {
     // contenido.classList.add("slideOutUp")
  
      let retrasoCambio = setTimeout(function () {
-         document.location.href = "./pantalla1E.html"
+         document.location.href = "./pantalla3E.html"
      }, 1000)
  
  })

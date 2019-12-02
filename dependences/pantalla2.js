@@ -38,7 +38,7 @@ botones[1].addEventListener("click", function () {
     // contenido.classList.add("slideOutUp")
  
      let retrasoCambio = setTimeout(function () {
-         document.location.href = "./thedetails.html"
+         document.location.href = "./thedetails1.html"
      }, 1000)
  
  })
