@@ -11,6 +11,9 @@ botones[1].addEventListener("click", function () {
         document.location.href = "./choose.html"
     }, 1000)
 
+
+
+    
 })
 
 botones[0].addEventListener("click", function () {
