@@ -8,7 +8,7 @@ let botones = document.querySelectorAll(".boton")
 
 function preload() {
 
-    audio = loadSound("./../src/audios/contextoVasija.m4a")
+    audio = loadSound("./dependences/contextoVasija.m4a")
 
 }
 
