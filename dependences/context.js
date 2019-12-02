@@ -67,10 +67,10 @@ btnrepro[0].addEventListener("click", function () {
     play = !play;
 
     if (play) {
-        btnrepro[0].src = "./../src/imagenes/pause(2).png"
+        btnrepro[0].src = "./../src/imagenes/pause.png"
         audio.play();
     } else if (play == false) {
-        btnrepro[0].src = "./../src/imagenes/play(2).png"
+        btnrepro[0].src = "./../src/imagenes/play.png"
         audio.pause();
 
     }
@@ -84,7 +84,7 @@ btnrepro[0].addEventListener("click", function () {
 btnrepro[1].addEventListener("click", function () {
 
     play = false;
-    btnrepro[0].src = "./../src/imagenes/play(2).png"
+    btnrepro[0].src = "./../src/imagenes/play.png"
     audio.stop();
 
 })
